@@ -45,8 +45,18 @@ function takeCommand(message){
         speak("hello friend, how can i help you?")
     }
     else if(message.includes("who are you")){
-        speak("I am your Virtual Assistant developed by   Tushar Sahni")
+        speak("I am your Virtual Assistant developed by Tushar Sahni")
     }
+    else if(message.includes("How are you")){
+        speak("I am good how can i help you")
+    }
+     else if(message.includes("Who is developer") ){
+        speak("Mister Tushar Sahni is my developer")
+    }
+         else if( message.includes("Who is father") || message.includes("Who is mother") || message.includes("Who is parent")){
+             speak("I don't have mother,father or parents like humans but i am developed by Engineer Tushar Sahni")
+         }
+    
     else if(message.includes("open youtube") || message.includes("open YouTube")){
         speak("Opening Youtube....")
         window.open('https://www.youtube.com/')
