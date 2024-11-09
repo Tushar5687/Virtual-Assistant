@@ -47,13 +47,13 @@ function takeCommand(message){
     else if(message.includes("who are you")){
         speak("I am your Virtual Assistant developed by Tushar Sahni")
     }
-    else if(message.includes("How are you")){
+    else if(message.includes("how are you")){
         speak("I am good how can i help you")
     }
-     else if(message.includes("Who is developer") ){
+     else if(message.includes("who is developer") ){
         speak("Mister Tushar Sahni is my developer")
     }
-         else if( message.includes("Who is father") || message.includes("Who is mother") || message.includes("Who is parent")){
+         else if( message.includes("who is father") || message.includes("who is mother") || message.includes("who is parent")){
              speak("I don't have mother,father or parents like humans but i am developed by Engineer Tushar Sahni")
          }
     
